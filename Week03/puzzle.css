@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: #0c67ae;
+    color: #3a3e41;
 }
 
 #title {
@@ -12,8 +12,8 @@ body {
 #board {
     width: 360px;
     height: 360px;
-    background-color: lightblue;
-    border: 10px solid #0c67ae;
+    background-color: #dbe6ad;
+    border: 10px solid #3a3e41;
 
     margin: 0 auto;
     display: flex;
@@ -23,5 +23,5 @@ body {
 #board img {
     width: 118px;
     height: 118px;
-    border: 1px solid #0c67ae;
+    border: 1px solid #3a3e41;
 }
