@@ -8,7 +8,7 @@ var otherTile; //blank tile
 var turns = 0;
 
 // var imgOrder = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
-var imgOrder = ["4", "2", "8", "5", "1", "6", "7", "9", "3"];
+var imgOrder = ["4", "2", "8", "5", "3", "6", "7", "9", "1"];
 
 window.onload = function() {
     for (let r=0; r < rows; r++) {
@@ -17,7 +17,7 @@ window.onload = function() {
             //<img id="0-0" src="1.jpg">
             let tile = document.createElement("img");
             tile.id = r.toString() + "-" + c.toString();
-            tile.src = imgOrder.shift() + "./.jpg";
+            tile.src = imgOrder.shift() + ".jpg";
 
             //DRAG FUNCTIONALITY
             tile.addEventListener("dragstart", dragStart);  //click an image to drag
@@ -54,7 +54,7 @@ function dragDrop() {
 }
 
 function dragEnd() {
-    if (!otherTile.src.includes("3.jpg")) {
+    if (!otherTile.src.includes("1.jpg")) {
         return;
     }
 
