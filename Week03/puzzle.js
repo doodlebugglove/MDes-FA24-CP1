@@ -1,4 +1,3 @@
-
 var rows = 3;
 var columns = 3;
 
