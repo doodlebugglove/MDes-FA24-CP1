@@ -17,7 +17,7 @@ window.onload = function() {
             //<img id="0-0" src="1.jpg">
             let tile = document.createElement("img");
             tile.id = r.toString() + "-" + c.toString();
-            tile.src = imgOrder.shift() + ".jpg";
+            tile.src = imgOrder.shift() + "./.jpg";
 
             //DRAG FUNCTIONALITY
             tile.addEventListener("dragstart", dragStart);  //click an image to drag
