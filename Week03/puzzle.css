@@ -21,7 +21,7 @@ body{
 }
 
 #board img {
-    width: 118px;
-    height: 118px;
+    width: 120px;
+    height: 120px;
     border: 1px dimgray;
 }
