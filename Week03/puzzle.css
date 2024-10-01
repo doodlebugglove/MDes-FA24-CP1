@@ -13,7 +13,7 @@ body{
     width: 360px;
     height: 360px;
     background-color: lightyellow;
-    border: 8px solid dimgray;
+    border: 10px solid dimgray;
 
     margin: 0 auto;
     display: flex;
